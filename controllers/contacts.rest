@@ -1,0 +1,12 @@
+
+### Get Hello Ada.
+Get http://localhost:3000
+Content-Type: text/plain
+
+### Get all contacts
+GET http://localhost:3000/contacts
+Content-Type: application/json
+
+### Get a single contact by ID
+GET http://localhost:3000/contacts/690f8c8bd1cb27a606bdab43
+Content-Type: application/json

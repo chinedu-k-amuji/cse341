@@ -1,0 +1,40 @@
+
+### Get Hello Ada.
+Get http://localhost:3000
+Content-Type: text/plain
+
+### Get all contacts
+GET http://localhost:3000/contacts
+Content-Type: application/json
+
+### Get a single contact by ID
+GET http://localhost:3000/contacts/690f8c8bd1cb27a606bdab43
+Content-Type: application/json
+
+### Post a contact
+
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+ "firstName": "Chimsimdi",
+ "lastName": "Ekezie",
+ "email": "neduphoneaccessorieslimited@gmail.com",
+ "favoriteColor": "gold",
+ "birthday": "22, October"
+}
+
+### Put a contact
+PUT http://localhost:3000/contacts/
+Content-Type: application/json
+
+{
+ "firstName": "Chizaram",
+ "lastName" : "Ekezie",
+ "email" : "simdiekezie22@gmail.com",
+ "favoriteColor": "purple",
+ "birthday": "22, October"
+}
+
+### Delete a contact
+DELETE http://localhost:3000/contacts/691ec0207d58fc0b3995e297

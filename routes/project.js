@@ -7,7 +7,7 @@ router.get('/', projectController.getAllProject);
 
 router.get('/:id', projectController.getProjectById);
 
-// Week 3 assignment starts here.
+// Week 3 and 4 assignment starts here.
 router.post('/', projectController.createProject);
 
 router.put('/:id', projectController.updateProject);

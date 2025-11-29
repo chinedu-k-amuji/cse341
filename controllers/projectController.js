@@ -2,7 +2,7 @@
 const { ObjectId } = require('mongodb');
 const mongodb = require('../data/database');
 
-// Get all projects
+// Get all projects week 4.
 const getAllProject = async (req, res) => {
   //#swagger.tags = ['Project']
   try {

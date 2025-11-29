@@ -7,7 +7,7 @@ router.get('/', employeesController.getAllEmployees);
 
 router.get('/:id', employeesController.getEmployeeById);
 
-// Week 3 assignment starts here.
+// Week 3 and 4 assignment starts here
 router.post('/', employeesController.createEmployee);
 
 router.put('/:id', employeesController.updateEmployee);

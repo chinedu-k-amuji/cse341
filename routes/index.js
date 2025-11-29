@@ -14,7 +14,9 @@ routes.get('/', (req, res) => {
 // routes.get('/', week_oneController.adaRoute);
 // routes.get('/chinedu', week_oneController.chineduRoute);
 
-// Employees API routes
+// Employees and project API routes
 routes.use('/employees', require('./employees'));
+routes.use('/project', require('./project'));
+
 
 module.exports = routes;
